@@ -14,10 +14,11 @@
 
 */
 /* Html and Body Styles */
+/* This sets the background color of the html. */
 html {
     background-color: rgba(160, 81, 45, 0.644);
 }
-
+/* This sets the margin, width and background color of the body. */
 body {
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +29,7 @@ body {
 }
 
 /* Header Styles */
+/* This specifies the img nested in the header to have a display of block and it gives it a margin,width and padding. */
 header img {
     display: block;
     margin-left: auto;
@@ -35,104 +37,100 @@ header img {
     width: 90%;
     padding-top: 10px;
 }
-
+/* This clears the h1 to the left. */
 h1 {
     clear: left;
 
 }
-
+/* This aligned the text of the h1 to the center. */
 h1 {
 
     text-align: center;
 }
-
-
-
-
-
-
-
-
 /* Navigation Styles */
+/* This affects the ul nested in the nav to have a list style and float. */
 nav ul {
     list-style: none;
     float: left;
 
 }
-
+/* This affects the hypertext links nested in the lists that are nested in the nav to have a certain text decoration and color. */
 nav li a {
     text-decoration: none;
     color: brown;
 
 }
-
+/* This affects the hypertext link that the child of the list thats the child of unordered list thats the child of the nav to have a color of white when you hover over it. */
 nav>ul>li>a:active,
 nav>ul>li>a:hover {
     color: white;
 }
-
+ /* This affects the class of lists to have list-style-type of decimal. */
 ul.list {
     list-style-type: decimal;
 }
-
+/* This sets the hypertext link thats nested in the lists thats nested in the footer to have a text decoration of none and a color of brown. */
 footer li a:link,
 footer li a:visited {
     text-decoration: none;
     color: brown;
 }
-
+/* This sets the unordered lists thats nested in the footer to have a list-style as none. */
 footer ul {
     list-style: none;
 }
-
+/* This sets the hypertext link thats the child of the lists thats the child of the unordered lists thats the child of the footer to have a color of white when you hover over it. */
 footer>ul>li>a:active,
 footer>ul>li>a:hover {
     color: white;
 }
-
+/* This sets the hypertext links thats nested in the lists thats nested in the article to have a text decoration of none and color of brown. */
 article li a {
     text-decoration: none;
     color: brown;
 }
-
+/* This sets the unordered lists thats nested in the article to have a list style of none. */
 article ul {
     list-style: none;
 }
-
+/* This sets all the childs of to have a color of white when you hover over it. */
 article>ul>li>a:active,
 article>ul>li>a:hover {
     color: white;
 }
-
+/* This sets the unordered list that has a class of firstnav to have a width and padding. */
 ul.firstNav {
     width: 100%;
     padding: 0;
 }
-
-ul.firstNav li {
+/* This sets the unordered list that has a class of firstnav to have a width, foat, text align and overflow. */
+ul.firstNav li{
     float: left;
     width: 12.5%;
     text-align: center;
     overflow: hidden;
 }
 
+/* This sets the div that has an id of secondnav to have a width, float and line height. */
 div#secondNav {
     width: 33%;
     float: left;
     line-height: 1.5em;
 }
 
+/* This sets the div that has the id of thirdnav to have a float, width and line height. */
 div#thirdNav {
     width: 33%;
     float: left;
     line-height: 1.5em;
 }
-
+/* This sets the div that has an id of fourthnav to float and have a line height. */
 div#fourthNav {
     float: left;
+    line-height: 1.5em;
 }
 
-
+/* This sets the div that has an id of fifthnav to have a width, float and line height. */
 div#fifthNav {
     width: 34%;
     float: left;
@@ -140,15 +138,15 @@ div#fifthNav {
 }
 
 
-
-
-
-
-
-
-
-
-
+/* Article Styles */
+/* This affects the image thats nested in the article to have a certain display, margin and width. */
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
+/* This sets the p tag have a ceratin padding and text indent. */
 p {
     padding-left: 10px;
     text-indent: 25px;
@@ -156,8 +154,16 @@ p {
 
 
 /* Footer Styles */
+/* This sets the footer to have a display, width and margin. */
 footer {
     display: table;
     width: 100%;
     margin: auto;
 }
+/* This sets the image thats nested in the footer to have a margin of 110px. */
+footer img {
+    margin-left: 110px;
+}
+
+
+
